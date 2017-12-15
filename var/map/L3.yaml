@@ -1,20 +1,10 @@
---- # Levels
-## Initial Plane
-I:    []
-IS:   [Shift]
-## God's Plane
-G:    [God]
-GS:   [Shift, God]
-## Yolo Plane
-Y:    []
-
 --- # Mapping
+  - # [TAB]
 
-TopLeftH:
   - # Q
     I:    x
     IS:   X
-
+ 
     G:    *Sm.logic.lessThan #x003c
     GS:   *Ps.bracket.angle
 
@@ -70,12 +60,4 @@ TopLeftH:
 
     GY:   *Ll.greek.omega
     GYS:  *Lu.greek.omega
-
-TopRightH:
-  - # Y
-    I:    k
-    IS:   K
-
-    GY:   *Ll.greek.kappa
-    GYS:  *Lu.greek.kappa
 

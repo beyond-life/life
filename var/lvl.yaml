@@ -1,0 +1,21 @@
+--- # Levels
+
+##    Initial Plane
+I:    []
+IS:   [Shy]
+
+##    God's Plane
+G:    [God]
+GS:   [Shy, God]
+###   Greek Plane
+GY:   [Yolo, God]
+GL:   [God, Lmbd]
+
+##    Yolo Plane
+Y:    [Yolo]
+YS:   [Shy, Yolo]
+
+##    Lambda-Combination Plane
+L:    [Lmbd]
+LY:   [Yolo, Lmbd]
+LS:   [Shy, Lmbd]
