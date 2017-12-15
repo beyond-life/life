@@ -1,0 +1,18 @@
+--- # Modifiers
+
+Shift:
+  - *L5.Shift
+  - *R5.Shift
+
+God:
+  - *L4.ShiftLock
+  - *R4.Tilde
+
+Yolo:
+  - *L5.Pipe
+  - *R6.AltGr
+
+Lmbd:
+  - *R6.Menu
+  - [*L6.Func, *L6.Ctrl]
+# - *C1.Print ← for Thinkpad

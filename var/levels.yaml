@@ -1,0 +1,81 @@
+--- # Levels
+## Initial Plane
+I:    []
+IS:   [Shift]
+## God's Plane
+G:    [God]
+GS:   [Shift, God]
+## Yolo Plane
+Y:    []
+
+--- # Mapping
+
+TopLeftH:
+  - # Q
+    I:    x
+    IS:   X
+
+    G:    *Sm.logic.lessThan #x003c
+    GS:   *Ps.bracket.angle
+
+    Y:    *Sm.set.sub
+    YS:   *Sm.set.elementOf #x2208
+
+    GY:   *Ll.greek.xi
+    GYS:  *Lu.greek.xi
+
+  - # W
+    I:    v
+    IS:   V
+
+    G:    *Sm.logic.or
+    GS:   *Sm.logic.or.nAry
+
+    Y:    *Sm.set.intersection
+    YS:   *Sm.set.intersection.nAry
+
+  - # E
+    I:    l
+    IS:   L
+
+    G:    *Sm.logic.and
+    GS:   *Sm.logic.and.nAry
+
+    Y:    *Sm.set.union
+    YS:   *Sm.set.union.nAry
+
+    GY:   *Ll.greek.lambda
+    GYS:  *Lu.greek.lambda
+
+  - # R
+    I:    c
+    IS:   C
+
+    G:    *Sm.logic.greaterThan #x003e
+    GS:   *Sm.logic.
+    #GS:   *Pe.bracket.angle #x3008
+
+    Y:    *Sm.set.super
+    YS:   *Sm.set.contains #x220b
+
+    GY:   *Ll.greek.chi
+    GYS:  *Lu.greek.chi
+
+  - # T
+    I:    w
+    IS:   W
+
+    G:    *Sm.logic.not #x00ac
+    GS:   *Mn.solidus.long #x0338
+
+    GY:   *Ll.greek.omega
+    GYS:  *Lu.greek.omega
+
+TopRightH:
+  - # Y
+    I:    k
+    IS:   K
+
+    GY:   *Ll.greek.kappa
+    GYS:  *Lu.greek.kappa
+
