@@ -1,0 +1,55 @@
+Left:
+  - # Q
+    D:    x
+    DS:   X
+
+    GY:   &Ll.greek.xi
+    GYS:  &Lu.greek.xi
+
+  - # W
+    D:    v
+    DS:   V
+
+    G:    &Sm.logic.or
+    GS:   &Sm.logic.or.nAry
+
+    Y:    &Sm.set.intersection
+    YS:   &Sm.set.intersection.nAry
+
+  - # E
+    D:    l
+    DS:   L
+
+    G:    &Sm.logic.and
+    GS:   &Sm.logic.and.nAry
+
+    Y:    &Sm.set.union
+    YS:   &Sm.set.union.nAry
+
+    GY:   &Ll.greek.lambda
+    GYS:  &Lu.greek.lambda
+
+  - # R
+    D:    c
+    DS:   C
+
+    G:    &Sm.logic.lessThan #x003c
+    GS:   &Ps.bracket.angle #x3008
+
+    YS:   &Sm.set.elementOf #x2208
+
+    GY:   &Ll.greek.chi
+    GYS:  &Lu.greek.chi
+
+  - # T
+    D:    w
+    DS:   W
+
+    G:    &Sm.logic.greaterThan #x003e
+
+    YS:   &Sm.set.contains #x220b
+
+---
+
+    G:    &Sm.logic.not #x00ac
+    GS:   &Mn.solidus.long #x0338

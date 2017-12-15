@@ -1,0 +1,37 @@
+Arithmetic:
+  - Infinity
+  - PlusMinus
+
+Set:
+  - Empty
+  - Element
+  - NotElement
+  - Contain
+  - NotContain
+  - Intersec
+  - Union
+  - Subset
+  - Superset
+  - SubsetEqual
+  - SupersetEqual
+
+Logic:
+  - ForAll
+  - Exist
+  - Not
+  - And
+  - Or
+
+Dots:
+  - Therefore
+  - Because
+  - Proportion
+
+Equality:
+  - NotEqual
+  - Identical
+  - NotIdentical
+  - LowerThanEqual
+  - GreaterThanEqual
+  - MuchLower
+  - MuchGreater
