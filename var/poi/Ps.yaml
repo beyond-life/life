@@ -1,37 +1,51 @@
-parens:
+--- # Open Punctuation
+
+Parens: # round brackets
     _:
-      0x0028
+      - 0x0028
+      - 0x0029
     double:
-      0x2e28
+      - 0x2e28
+      - 0x2e29
     moon: # z-image
-      0x2987
+      - 0x2987
+      - 0x2988
 
-angle:
+Angle:
     _:
-      0x27e8
+      - 0x27e8
+      - 0x27e9
     double:
-      0x27ea
+      - 0x27ea
+      - 0x27eb
 
-bracket:
+Bracket: # square …
     _:
-      0x005b
+      - 0x005b
     quill:
-      0x2045
+      - 0x2045
+      - 0x2046
     white:
-      0x27e6
+      - 0x27e6
+      - 0x27e7
 
-quoteL9:
+Brace: # curly brackets
+
+Quotation9:
     _:
-      0x201a
+      - 0x2018
+      - 0x2019
     double:
-      0x201e
+      - 0x201c
+      - 0x201d
+    ger:
+      - 0x201a
+      - 0x2018 # [!]
+    doubleGer:
+      - 0x201e
+      - 0x201c # [!]
 
-quoteH9:
+Bag: # s-shaped delimeter
     _:
-      0x201b
-    double:
-      0x201f
-
-bag: # s-shaped delimeter
-    _:
-      0x27c5
+      - 0x27c5
+      - 0x27c6

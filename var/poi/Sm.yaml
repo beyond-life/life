@@ -1,0 +1,22 @@
+--- # Math Symbol
+
+Logics:
+    And:
+        _:
+        meta:
+          - 0x22c0
+        meta+alt:
+          - 0x2200
+
+    LogicOr:
+        meta:
+          - 0x22c1
+        meta+alt:
+          - 0x2203
+        neg+meta+alt:
+          - 0x2204
+
+Sets:
+    ElementOf:
+        reverse:
+          - 0x220b
