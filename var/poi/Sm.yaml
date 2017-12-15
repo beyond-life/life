@@ -1,6 +1,31 @@
 --- # Math Symbol
 
+Tilde:
+    _:
+      - 0x007e
+
+Artihs:
+    Lt:
+        _:
+          - 0x003c
+
+    Eq:
+        _:
+          - 0x003d
+
+    Gt:
+        _:
+          - 0x003e
+
+    Plus:
+        _:
+          - 0x002b
+
 Logics:
+    Not:
+        _:
+          - 0x00ac
+
     And:
         _:
         meta:
@@ -8,12 +33,12 @@ Logics:
         meta+alt:
           - 0x2200
 
-    LogicOr:
+    Or:
         meta:
           - 0x22c1
         meta+alt:
           - 0x2203
-        neg+meta+alt:
+        not+meta+alt:
           - 0x2204
 
 Sets:
