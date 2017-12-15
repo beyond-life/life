@@ -5,14 +5,17 @@
     I:    x
     IS:   X
  
-    G:    *Sm.logic.lessThan #x003c
-    GS:   *Ps.bracket.angle
+    G:    *Sm.arith.lessThan #x003c
+    #GS:   *Sm.arith.muchLessThan #x226a
 
-    Y:    *Sm.set.sub
-    YS:   *Sm.set.elementOf #x2208
+    #Y:    *Sm.set.sub
+    #YS:   *Sm.set.elementOf #x2208
+    Y:    
+        _: Ps.mathBrac.angle #x3008
+        double: Ps.mathBrac.angle.double #x300a
 
     GY:   *Ll.greek.xi
-    GYS:  *Lu.greek.xi
+    GL:   *Lu.greek.xi
 
   - # W
     I:    v
@@ -20,6 +23,8 @@
 
     G:    *Sm.logic.or
     GS:   *Sm.logic.or.nAry
+
+    # No greek
 
     Y:    *Sm.set.intersection
     YS:   *Sm.set.intersection.nAry
@@ -31,11 +36,11 @@
     G:    *Sm.logic.and
     GS:   *Sm.logic.and.nAry
 
+    GY:   *Ll.greek.lambda
+    GL:  *Lu.greek.lambda
+
     Y:    *Sm.set.union
     YS:   *Sm.set.union.nAry
-
-    GY:   *Ll.greek.lambda
-    GYS:  *Lu.greek.lambda
 
   - # R
     I:    c
@@ -45,19 +50,20 @@
     GS:   *Sm.logic.
     #GS:   *Pe.bracket.angle #x3008
 
+    GY:   *Ll.greek.chi
+    GL:  *Lu.greek.chi
+
     Y:    *Sm.set.super
     YS:   *Sm.set.contains #x220b
-
-    GY:   *Ll.greek.chi
-    GYS:  *Lu.greek.chi
 
   - # T
     I:    w
     IS:   W
 
     G:    *Sm.logic.not #x00ac
-    GS:   *Mn.solidus.long #x0338
 
     GY:   *Ll.greek.omega
-    GYS:  *Lu.greek.omega
+    GL:  *Lu.greek.omega
+
+    L:   *Mn.solidus.long #x0338
 

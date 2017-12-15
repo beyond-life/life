@@ -1,0 +1,37 @@
+parens:
+    _:
+      0x0028
+    double:
+      0x2e28
+    moon: # z-image
+      0x2987
+
+angle:
+    _:
+      0x27e8
+    double:
+      0x27ea
+
+bracket:
+    _:
+      0x005b
+    quill:
+      0x2045
+    white:
+      0x27e6
+
+quoteL9:
+    _:
+      0x201a
+    double:
+      0x201e
+
+quoteH9:
+    _:
+      0x201b
+    double:
+      0x201f
+
+bag: # s-shaped delimeter
+    _:
+      0x27c5

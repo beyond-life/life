@@ -1,21 +1,21 @@
 --- # Levels
 
 ##    Initial Plane
-I:    []
-IS:   [Shy]
+I:    []              # Latin Lowercase
+IS:   [Shy]           # Latin Uppercase
 
 ##    God's Plane
-G:    [God]
-GS:   [Shy, God]
+G:    [God]           # Logic
+GS:   [Shy, God]      # Logic High-Order
 ###   Greek Plane
-GY:   [Yolo, God]
-GL:   [God, Lmbd]
+GY:   [Yolo, God]     # Greek Lowercase
+GL:   [God, Lmbd]     # Greek Uppercase
 
 ##    Yolo Plane
-Y:    [Yolo]
-YS:   [Shy, Yolo]
+Y:    [Yolo]          # Typographic
+YS:   [Shy, Yolo]     # Human
 
 ##    Lambda-Combination Plane
-L:    [Lmbd]
-LY:   [Yolo, Lmbd]
-LS:   [Shy, Lmbd]
+L:    [Lmbd]          # Combinator Mid
+LY:   [Yolo, Lmbd]    # Combinator Low
+LS:   [Shy, Lmbd]     # Combinator High

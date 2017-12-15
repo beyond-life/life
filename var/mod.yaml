@@ -6,7 +6,7 @@ Shy:
 
 God:
   - *L4.ShiftLock
-  - *R4.Tilde
+  - *R5.Slash
 
 Yolo:
   - *L5.Pipe
