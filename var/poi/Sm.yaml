@@ -2,29 +2,39 @@
 
 Tilde:
     _:
-      - 0x007e
+      - 0x__7e
 
 Artihs:
     Lt:
         _:
-          - 0x003c
+          - 0x__3c
 
     Eq:
         _:
-          - 0x003d
+          - 0x__3d
 
     Gt:
         _:
-          - 0x003e
+          - 0x__3e
 
     Plus:
         _:
-          - 0x002b
+          - 0x__2b
+        hypen: # "plus-minus"
+          - 0x__b1
+    
+    Multiply:
+        _:
+          - 0x__d7
+    
+    Divide:
+        _:
+          - 0x__f7
 
 Logics:
     Not:
         _:
-          - 0x00ac
+          - 0x__ac
 
     And:
         _:

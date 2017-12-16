@@ -2,8 +2,8 @@
 
 Parens: # round brackets
     _:
-      - 0x0028
-      - 0x0029
+      - 0x__28
+      - 0x__29
     double:
       - 0x2e28
       - 0x2e29
@@ -21,7 +21,7 @@ Angle:
 
 Bracket: # square …
     _:
-      - 0x005b
+      - 0x__5b
     quill:
       - 0x2045
       - 0x2046
