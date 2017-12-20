@@ -1,4 +1,4 @@
---- # Math Symbol
+--- # Math
 
 Tilde:
     _:
@@ -22,6 +22,10 @@ Artihs:
           - 0x__2b
         hypen: # "plus-minus"
           - 0x__b1
+        overbar: # "minus-plus"
+          - 0x2213
+        overdot: # "dot plus"
+          - 0x2214
     
     Multiply:
         _:
@@ -38,18 +42,38 @@ Logics:
 
     And:
         _:
+          - 0x2227
         meta:
           - 0x22c0
         meta+alt:
           - 0x2200
 
     Or:
+        _:
+          - 0x2228
         meta:
           - 0x22c1
         meta+alt:
           - 0x2203
         not+meta+alt:
           - 0x2204
+
+# TODO Merge with "Dot"
+Funcs:
+    Ring:
+        _:
+          - 0x2218
+
+    Bullet:
+        _:
+          - 0x2219
+
+Geometrics:
+    Angle:
+        _:
+          - 0x2220
+        norm: # right angle
+          - 0x221f
 
 Sets:
     ElementOf:

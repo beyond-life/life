@@ -1,4 +1,4 @@
---- # Open Punctuation
+--- # Brac(k)e(t)s
 
 Parens: # round brackets
     _:
@@ -22,6 +22,7 @@ Angle:
 Bracket: # square …
     _:
       - 0x__5b
+      - 0x__5d
     quill:
       - 0x2045
       - 0x2046
@@ -30,6 +31,9 @@ Bracket: # square …
       - 0x27e7
 
 Brace: # curly brackets
+    _:
+      - 0x007b
+      - 0x007d
 
 Quotation9:
     _:
