@@ -1,5 +1,13 @@
 --- # Trade
 
+Percent:
+    _:
+      - 0x__25
+
 Ampersand:
     _:
       - 0x__26
+
+Asterisk:
+    _:
+      - 0x__2a
