@@ -6,9 +6,21 @@ Diacritic:
   - [Tick, Macron]
   - [Grave, Acute]
   - [Dot, Trema]
+  #… Trema == "DblDot"
 
 Bar:
-  - [Bar, EqBar]
+  # each as high AND low variant:
+  - [Bar, DblBar]
 
 Logic:
-  - [Subscr, Superscr]
+  - [Sub, Super]
+  - [DblStruck, Script, Heavy, Fracture]
+  #… DblStruck = "Blackboard-fonted"
+  - [Curly]
+  - [Circled, Squared]
+  - [Mirror, Turn]
+  - [Double]
+
+Humanties:
+  - [Currency]
+  - [Gender]
