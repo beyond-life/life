@@ -6,7 +6,6 @@ Based on *Neo2*.
 
 ## Info
 - There's [a spreadsheet](./map.ods) with some ideas shown graphically.
-- [`format.md`, about binary representation](./format.md)
 - See [the `levels.yaml` file](../var/levels.yaml); that's all for now.
 
 ## Yolicensing
