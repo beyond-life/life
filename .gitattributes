@@ -1,0 +1,2 @@
+var/img/sign.png filter=lfs diff=lfs merge=lfs -text
+var/img/sign.xcf.gz filter=lfs diff=lfs merge=lfs -text
